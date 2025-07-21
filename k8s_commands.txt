@@ -247,5 +247,11 @@ minikube addons enable ingress
 
 kubectl port-forward service/ingress-nginx-controller -n ingress-nginx 80:80
 ------------------------------------------------------------------
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+helm repo update
+
+helm install prometheus-stack prometheus-community/kube-prometheus-stack -n monitoring --set prometheus.service.nodePort=30000 --set grafana.service.nodePort=31000 --set prometheus.service.type=NodePort --set grafana.service.type=NodePort
+
+----------------------------------------------------------------
 docker login -u sajanrajsonu
 dckr_pat_bQ4NAywBh_11DDTJ093_V0cyldk
