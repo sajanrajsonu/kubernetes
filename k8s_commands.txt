@@ -237,3 +237,5 @@ docker build -t sajanrajsonu/chatapp-frontend:latest .
 docker push sajanrajsonu/chatapp-frontend:latest
 
 ------------------------------------------------------------------
+docker login -u sajanrajsonu
+dckr_pat_bQ4NAywBh_11DDTJ093_V0cyldk
