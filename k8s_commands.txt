@@ -238,16 +238,3 @@ docker push sajanrajsonu/chatapp-frontend:latest
 
 ------------------------------------------------------------------
 
-
-
-
-
-
-
-
-
-docker login -u sajanrajsonu425
-Token passowrd - dckr_pat_eewpFfpTALgEKRzfRetUGYhws_U
-
-docker login -u sajanrajsonu
-Token passowrd ->  
