@@ -1,4 +1,0 @@
-nohup: ignoring input
-Starting to serve on 127.0.0.1:8001
-E0702 00:32:02.167047   10702 proxy_server.go:147] Error while proxying request: context canceled
-E0702 00:32:02.192187   10702 proxy_server.go:147] Error while proxying request: context canceled
