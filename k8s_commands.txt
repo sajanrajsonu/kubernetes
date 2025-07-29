@@ -254,13 +254,12 @@ helm install prometheus-stack prometheus-community/kube-prometheus-stack -n moni
 
  kubectl get secret prometheus-stack-grafana -n monitoring -o jsonpath="{.data.admin-password}" | base64 --decode
  
-AKIA2HVQ5FC2X2PNKKFX
 
-TB0A3F5wUrikOkn296Va3wkM29Ev9Yn+R+OVDFKR
+
+
 https://devops.tglserver.net/TMotions/CME-%20Order%20Automation%20(AI)/_git/CME_Order_Automation_AI
 
 
 eksctl utils associate-iam-oidc-provider --region ap-south-1 --cluster sjn-cluster --approve
 ----------------------------------------------------------------
 docker login -u sajanrajsonu
-dckr_pat_bQ4NAywBh_11DDTJ093_V0cyldk
